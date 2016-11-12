@@ -22,7 +22,7 @@
 
 RWin::SendInput {AppsKey}
 
-^!t::Run "C:\Windows\System32\bash.exe -ls"
+^!t::Run "C:\Windows\System32\bash.exe"
 ^!c::Run "C:\Windows\System32\cmd.exe"
 
 Return
