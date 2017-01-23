@@ -25,4 +25,27 @@ RWin::SendInput {AppsKey}
 ^!t::Run "C:\Windows\System32\bash.exe"
 ^!c::Run "C:\Windows\System32\cmd.exe"
 
-Return
+>^Tab::
+SendInput {Tab}
+SendInput +{Tab}
+SendInput {Down}
+SendInput {Home}
+return
+
+>^w::
+SendInput ^{Left}
+SendInput ^+{Right}
+return
+
+>^CapsLock::
+SendInput {End}
+SendInput +{Home}
+SendInput {Delete}
+return
+
+Insert::
+	While GetKeyState("Insert", "P"){
+		Click
+		Sleep 50 ;  milliseconds
+	}
+return

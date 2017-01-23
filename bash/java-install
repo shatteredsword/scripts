@@ -1,0 +1,45 @@
+#!/bin/bash
+sudo mkdir /usr/local/jdk/ && cd /usr/local/jdk/
+sudo wget -O /usr/local/jdk/jdk-8u111-linux-x64.tar.gz --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u111-b14/jdk-8u111-linux-x64.tar.gz
+sudo tar -zxvf /usr/local/jdk/jdk-8u111-linux-x64.tar.gz -C /usr/local/jdk/
+sudo rm /usr/local/jdk/jdk-8u111-linux-x64.tar.gz
+sudo update-alternatives --install /usr/bin/java java /usr/local/jdk/jdk1.8.0_111/jre/bin/java 400
+sudo update-alternatives --install /usr/bin/keytool keytool /usr/local/jdk/jdk1.8.0_111/jre/bin/keytool 400
+sudo update-alternatives --install /usr/bin/orbd orbd /usr/local/jdk/jdk1.8.0_111/jre/bin/orbd 400
+sudo update-alternatives --install /usr/bin/pack200 pack200 /usr/local/jdk/jdk1.8.0_111/jre/bin/pack200 400
+sudo update-alternatives --install /usr/bin/rmid rmid /usr/local/jdk/jdk1.8.0_111/jre/bin/rmid 400
+sudo update-alternatives --install /usr/bin/rmiregistry rmiregistry /usr/local/jdk/jdk1.8.0_111/jre/bin/rmiregistry 400
+sudo update-alternatives --install /usr/bin/servertool servertool /usr/local/jdk/jdk1.8.0_111/jre/bin/servertool 400
+sudo update-alternatives --install /usr/bin/tnameserv tnameserv /usr/local/jdk/jdk1.8.0_111/jre/bin/tnameserv 400
+sudo update-alternatives --install /usr/bin/unpack200 unpack200 /usr/local/jdk/jdk1.8.0_111/jre/bin/unpack200 400
+sudo update-alternatives --install /usr/bin/policytool policytool /usr/local/jdk/jdk1.8.0_111/jre/bin/policytool 400
+sudo update-alternatives --install /usr/bin/jexec jexec /usr/local/jdk/jdk1.8.0_111/jre/lib/jexec 400
+sudo update-alternatives --install /usr/bin/appletviewer appletviewer /usr/local/jdk/jdk1.8.0_111/bin/appletviewer 400
+sudo update-alternatives --install /usr/bin/extcheck extcheck /usr/local/jdk/jdk1.8.0_111/bin/extcheck 400
+sudo update-alternatives --install /usr/bin/idlj idlj /usr/local/jdk/jdk1.8.0_111/bin/idlj 400
+sudo update-alternatives --install /usr/bin/jar jar /usr/local/jdk/jdk1.8.0_111/bin/jar 400
+sudo update-alternatives --install /usr/bin/jarsigner jarsigner /usr/local/jdk/jdk1.8.0_111/bin/jarsigner 400
+sudo update-alternatives --install /usr/bin/javac javac /usr/local/jdk/jdk1.8.0_111/bin/javac 400
+sudo update-alternatives --install /usr/bin/javadoc javadoc /usr/local/jdk/jdk1.8.0_111/bin/javadoc 400
+sudo update-alternatives --install /usr/bin/javah javah /usr/local/jdk/jdk1.8.0_111/bin/javah 400
+sudo update-alternatives --install /usr/bin/javap javap /usr/local/jdk/jdk1.8.0_111/bin/javap 400
+sudo update-alternatives --install /usr/bin/jcmd jcmd /usr/local/jdk/jdk1.8.0_111/bin/jcmd 400
+sudo update-alternatives --install /usr/bin/jconsole jconsole /usr/local/jdk/jdk1.8.0_111/bin/jconsole 400
+sudo update-alternatives --install /usr/bin/jdb jdb /usr/local/jdk/jdk1.8.0_111/bin/jdb 400
+sudo update-alternatives --install /usr/bin/jdeps jdeps /usr/local/jdk/jdk1.8.0_111/bin/jdeps 400
+sudo update-alternatives --install /usr/bin/jhat jhat /usr/local/jdk/jdk1.8.0_111/bin/jhat 400
+sudo update-alternatives --install /usr/bin/jinfo jinfo /usr/local/jdk/jdk1.8.0_111/bin/jinfo 400
+sudo update-alternatives --install /usr/bin/jmap jmap /usr/local/jdk/jdk1.8.0_111/bin/jmap 400
+sudo update-alternatives --install /usr/bin/jps jps /usr/local/jdk/jdk1.8.0_111/bin/jps 400
+sudo update-alternatives --install /usr/bin/jrunscript jrunscript /usr/local/jdk/jdk1.8.0_111/bin/jrunscript 400
+sudo update-alternatives --install /usr/bin/jsadebugd jsadebugd /usr/local/jdk/jdk1.8.0_111/bin/jsadebugd 400
+sudo update-alternatives --install /usr/bin/jstack jstack /usr/local/jdk/jdk1.8.0_111/bin/jstack 400
+sudo update-alternatives --install /usr/bin/jstat jstat /usr/local/jdk/jdk1.8.0_111/bin/jstat 400
+sudo update-alternatives --install /usr/bin/jstatd jstatd /usr/local/jdk/jdk1.8.0_111/bin/jstatd 400
+sudo update-alternatives --install /usr/bin/native2ascii native2ascii /usr/local/jdk/jdk1.8.0_111/bin/native2ascii 400
+sudo update-alternatives --install /usr/bin/rmic rmic /usr/local/jdk/jdk1.8.0_111/bin/rmic 400
+sudo update-alternatives --install /usr/bin/schemagen schemagen /usr/local/jdk/jdk1.8.0_111/bin/schemagen 400
+sudo update-alternatives --install /usr/bin/serialver serialver /usr/local/jdk/jdk1.8.0_111/bin/serialver 400
+sudo update-alternatives --install /usr/bin/wsgen wsgen /usr/local/jdk/jdk1.8.0_111/bin/wsgen 400
+sudo update-alternatives --install /usr/bin/wsimport wsimport /usr/local/jdk/jdk1.8.0_111/bin/wsimport 400
+sudo update-alternatives --install /usr/bin/xjc xjc /usr/local/jdk/jdk1.8.0_111/bin/xjc 400
