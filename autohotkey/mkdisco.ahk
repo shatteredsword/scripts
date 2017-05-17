@@ -10,14 +10,14 @@
 >^Space::SendInput {Media_Play_Pause}
 >^Home::SendInput {Media_Stop}
 >^PgUp::SendInput {Volume_Up}
->^Up::SendInput {Volume_Up}
+>^Up::SendInput {WheelUp}
 >^WheelUp::SendInput {Volume_Up}
 >^Del::SendInput {Media_Prev}
 >^Left::SendInput {Media_Prev}
 >^End::SendInput {Media_Next}
 >^Right::SendInput {Media_Next}
 >^PgDn::SendInput {Volume_Down}
->^Down::SendInput {Volume_Down}
+>^Down::SendInput {WheelDown}
 >^WheelDown::SendInput {Volume_Down}
 
 RWin::SendInput {AppsKey}
