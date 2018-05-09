@@ -22,7 +22,7 @@
 
 RWin::SendInput {AppsKey}
 
-^!t::Run "C:\Windows\System32\bash.exe"
+^!t::Run "ubuntu"
 ^!c::Run "C:\Windows\System32\cmd.exe"
 
 Insert::
