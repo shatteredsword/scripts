@@ -1,11 +1,9 @@
 >^F1::SendInput {Browser_Home}
 >^F2::SendInput {Launch_Mail}
 >^F3::SendInput {Browser_Search}
->^F4::Run "C:\Program Files (x86)\MusicBee\MusicBee.exe"
->^F9::SendInput {Launch_App1}
->^F12::SendInput {Launch_App2}
+>^F4::Run "C:\Windows\SysWOW64\explorer.exe" "shell:appsFolder\SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify"
 
->^Pause::SendInput {Volume_Mute}
+>^CtrlBreak::SendInput {Volume_Mute}
 >^Ins::SendInput {Media_Play_Pause}
 >^Space::SendInput {Media_Play_Pause}
 >^Home::SendInput {Media_Stop}
@@ -19,11 +17,10 @@
 >^PgDn::SendInput {Volume_Down}
 >^Down::SendInput {WheelDown}
 >^WheelDown::SendInput {Volume_Down}
-
 RWin::SendInput {AppsKey}
-
-^!t::Run "ubuntu"
-^!c::Run "C:\Windows\System32\cmd.exe"
+^!t::Run "ubuntu.exe"
+^!c::Run "cmd.exe"
+^!p::Run "powershell.exe"
 
 Insert::
 	While GetKeyState("Insert", "P"){
