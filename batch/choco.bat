@@ -18,7 +18,7 @@ choco install -y pgadmin4
 choco install -y powertoys
 choco install -y qbittorrent
 choco install -y signal
-choco install -y sql-server-managemment-studio
+choco install -y sql-server-management-studio
 choco install -y steam
 choco install -y vlc
 choco install -y vnc-viewer
